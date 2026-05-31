@@ -152,7 +152,7 @@ class InvoiceApp(ctk.CTk):
         pdf.set_font(font_family, "", 10)
         pdf.cell(0, 6, "Bamar Bartosz Borowski", new_x="LMARGIN", new_y="NEXT")
         pdf.cell(0, 6, "ul. Teresy 4, 42-200 Częstochowa", new_x="LMARGIN", new_y="NEXT")
-        pdf.cell(0, 6, "NIP: ", new_x="LMARGIN", new_y="NEXT")
+        pdf.cell(0, 6, "NIP: 949-164-32-60 ", new_x="LMARGIN", new_y="NEXT")
         pdf.ln(10)
 
         def rysuj_tabele(tytul, lista_pozycji):
